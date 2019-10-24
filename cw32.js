@@ -7,7 +7,6 @@ function oddOne(arr) {
     for (let i=0; i<arr.length;i++){
        console.log(arr[i])
        if(arr[i]%2===0){
-  
         if(i==arr.length-1){
           return -1
         }
