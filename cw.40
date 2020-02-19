@@ -1,0 +1,10 @@
+function findShort(s){
+let newS = s.split(' ')
+let arrOfLengths = []
+let word;
+for (let i = 0; i < newS.length; i++){
+  word = newS[i]
+  arrOfLengths.push(word.length)
+ }
+ return Math.min.apply( Math, arrOfLengths );
+}
